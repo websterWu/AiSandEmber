@@ -15,6 +15,7 @@
 		8401EBB91BD2218100BD7D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401EBB71BD2218100BD7D00 /* LaunchScreen.storyboard */; };
 		8401EBC41BD2218200BD7D00 /* AiSandEmberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401EBC31BD2218200BD7D00 /* AiSandEmberTests.m */; };
 		8401EBCF1BD2218200BD7D00 /* AiSandEmberUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401EBCE1BD2218200BD7D00 /* AiSandEmberUITests.m */; };
+		8401EBDF1BD2228B00BD7D00 /* ASECenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401EBDE1BD2228B00BD7D00 /* ASECenterViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8401EBCA1BD2218200BD7D00 /* AiSandEmberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiSandEmberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401EBCE1BD2218200BD7D00 /* AiSandEmberUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AiSandEmberUITests.m; sourceTree = "<group>"; };
 		8401EBD01BD2218200BD7D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8401EBDD1BD2228B00BD7D00 /* ASECenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASECenterViewController.h; sourceTree = "<group>"; };
+		8401EBDE1BD2228B00BD7D00 /* ASECenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASECenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		8401EBA81BD2218100BD7D00 /* AiSandEmber */ = {
 			isa = PBXGroup;
 			children = (
+				8401EBDC1BD2226F00BD7D00 /* ASEViewControllers */,
 				8401EBAC1BD2218100BD7D00 /* AppDelegate.h */,
 				8401EBAD1BD2218100BD7D00 /* AppDelegate.m */,
 				8401EBAF1BD2218100BD7D00 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				8401EBD01BD2218200BD7D00 /* Info.plist */,
 			);
 			path = AiSandEmberUITests;
+			sourceTree = "<group>";
+		};
+		8401EBDC1BD2226F00BD7D00 /* ASEViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8401EBDD1BD2228B00BD7D00 /* ASECenterViewController.h */,
+				8401EBDE1BD2228B00BD7D00 /* ASECenterViewController.m */,
+			);
+			path = ASEViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8401EBB11BD2218100BD7D00 /* ViewController.m in Sources */,
+				8401EBDF1BD2228B00BD7D00 /* ASECenterViewController.m in Sources */,
 				8401EBAE1BD2218100BD7D00 /* AppDelegate.m in Sources */,
 				8401EBAB1BD2218100BD7D00 /* main.m in Sources */,
 			);
@@ -496,6 +510,7 @@
 				8401EBD51BD2218200BD7D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8401EBD61BD2218200BD7D00 /* Build configuration list for PBXNativeTarget "AiSandEmberTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				8401EBD81BD2218200BD7D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8401EBD91BD2218200BD7D00 /* Build configuration list for PBXNativeTarget "AiSandEmberUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				8401EBDB1BD2218200BD7D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
